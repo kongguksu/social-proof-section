@@ -1,0 +1,528 @@
+/********* Desktop-first Flow *********/
+
+/* --------------------------- */
+/********* Below 1152px *********/
+@media (max-width: 72em) {
+  .social-proof-container {
+    width: 60.5rem;
+  }
+
+  .top {
+    margin-bottom: 3.5rem;
+  }
+}
+
+/* --------------------------- */
+/********* Below 1000px *********/
+@media (max-width: 62.5em) {
+  .social-proof-container {
+    width: 51rem;
+  }
+
+  /****** Top ******/
+  .top {
+    margin-bottom: 3rem;
+  }
+
+  /* Intro */
+  .intro {
+    width: 20.5rem;
+  }
+
+  .intro-heading {
+    font-size: 3.3rem;
+    margin-bottom: 1.2rem;
+  }
+
+  /* Rating */
+  .rating {
+    gap: 0.8rem;
+  }
+
+  .rating-box {
+    width: 23.5rem;
+    gap: 1.2rem;
+    padding: 0.9rem 1.2rem;
+  }
+
+  .rating-left {
+    margin-left: -3.8rem;
+    margin-right: 3.8rem;
+  }
+
+  .rating-middle {
+    margin-left: -1.9rem;
+    margin-right: 1.9rem;
+  }
+
+  .rating-stars {
+    gap: 0.3rem;
+    padding-left: 0.3rem;
+  }
+
+  .rating-title {
+    font-size: 1.02rem;
+  }
+
+  /****** Testimonials ******/
+  .testimonials {
+    gap: 1.6rem;
+  }
+
+  .testimonial-box {
+    padding: 2rem 1.7rem;
+  }
+
+  .headshot-img {
+    width: 2.2rem;
+  }
+
+  /****** Background ******/
+  .background-bottom {
+    bottom: -43rem;
+    right: -14rem;
+  }
+}
+
+/* --------------------------- */
+/********* Below 850px *********/
+@media (max-width: 53em) {
+  .social-proof-container {
+    width: 41rem;
+  }
+
+  /****** Top ******/
+  .top {
+    margin-bottom: 2.5rem;
+  }
+
+  /* Intro */
+  .intro {
+    width: 18rem;
+  }
+
+  .intro-heading {
+    font-size: 2.6rem;
+  }
+
+  .intro-description {
+    font-size: 0.85rem;
+  }
+
+  /* Rating */
+  .rating {
+    gap: 0.65rem;
+  }
+
+  .rating-box {
+    width: 18rem;
+    gap: 1rem;
+    padding: 0.8rem 1rem;
+  }
+
+  .rating-left {
+    margin-left: -3.6rem;
+    margin-right: 3.6rem;
+  }
+
+  .rating-middle {
+    margin-left: -1.8rem;
+    margin-right: 1.8rem;
+  }
+
+  .rating-stars {
+    gap: 0.2rem;
+  }
+
+  .icon-star {
+    width: 0.7rem;
+  }
+
+  .rating-title {
+    font-size: 0.8rem;
+  }
+
+  /****** Testimonials ******/
+  .testimonials {
+    gap: 1.2rem;
+  }
+
+  .testimonial-box {
+    padding: 1.5rem 1.3rem;
+  }
+
+  .box-middle {
+    margin-top: 0.8rem;
+    margin-bottom: -0.8rem;
+  }
+
+  .box-right {
+    margin-top: 1.6rem;
+    margin-bottom: -1.6rem;
+  }
+
+  /* Profile */
+  .testimonial-profile {
+    margin-bottom: 1.2rem;
+  }
+
+  .headshot-img {
+    width: 2rem;
+  }
+
+  .profile-info {
+    font-size: 0.9rem;
+  }
+
+  /* Review */
+  .testimonial-review {
+    font-size: 0.8rem;
+  }
+
+  /****** Background ******/
+  .background-top {
+    top: -11rem;
+    left: -8.7rem;
+  }
+
+  .background-bottom {
+    bottom: -43rem;
+    right: -12rem;
+  }
+}
+
+/* --------------------------- */
+/********* Below 704px *********/
+@media (max-width: 44em) {
+  .social-proof-container {
+    width: 35.5rem;
+  }
+
+  /****** Top ******/
+  .top {
+    flex-direction: column;
+    justify-content: center;
+
+    margin-bottom: 2.5rem;
+  }
+
+  /* Intro */
+  .intro {
+    width: 33.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .intro-heading {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .intro-description {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  /* Rating */
+  .rating {
+    gap: 0.9rem;
+  }
+
+  .rating-box {
+    width: 25rem;
+    gap: 2rem;
+    padding: 1rem 0.7rem;
+  }
+
+  .rating-left {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .rating-middle {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .rating-title {
+    font-size: 1rem;
+  }
+
+  /****** Testimonials ******/
+  .testimonials {
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .testimonial-box {
+    padding: 1.4rem 1.1rem;
+  }
+
+  .box-middle {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+
+  .box-right {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+
+  /* Profile */
+  .testimonial-profile {
+    font-size: 0.8rem;
+    gap: 1rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .headshot-img {
+    width: 1.8rem;
+  }
+
+  /****** Background ******/
+  .background-top {
+    top: -7rem;
+    left: -8.7rem;
+  }
+
+  .background-bottom {
+    bottom: -55rem;
+    right: -12rem;
+  }
+}
+
+/* --------------------------- */
+/********* Below 600px *********/
+@media (max-width: 37.5em) {
+  .social-proof-container {
+    width: 28rem;
+  }
+
+  /****** Top ******/
+  /* Intro */
+  .intro {
+    width: 28.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .intro-description {
+    font-size: 0.9rem;
+  }
+
+  /****** Testimonials ******/
+  /* Profile */
+  .testimonials {
+    gap: 0.95rem;
+  }
+
+  .testimonial-profile {
+    flex-direction: column;
+    gap: 0.2rem;
+    align-items: flex-start;
+  }
+
+  .headshot-img {
+    width: 1.6rem;
+  }
+
+  .profile-info {
+    font-size: 0.8rem;
+  }
+
+  /* Review */
+  .testimonial-review {
+    font-size: 0.7rem;
+  }
+
+  /****** Background ******/
+  .background-top {
+    top: -5rem;
+    left: -8.7rem;
+  }
+
+  .background-bottom {
+    bottom: -60rem;
+    right: -12rem;
+  }
+}
+
+/* --------------------------- */
+/********* Below 480px *********/
+@media (max-width: 30em) {
+  .social-proof-container {
+    align-items: center;
+    width: 21.5rem;
+    margin: 4rem;
+  }
+
+  /****** Top ******/
+  /* Intro */
+  .intro {
+    width: 19.5rem;
+    margin-bottom: 2.3rem;
+  }
+
+  .intro-description {
+    font-size: 0.9rem;
+  }
+
+  /* Rating */
+  .rating {
+    gap: 0.8rem;
+  }
+
+  .rating-box {
+    width: 18.5rem;
+    gap: 1rem;
+    padding: 1rem 1rem;
+  }
+
+  .rating-stars {
+    gap: 0.3rem;
+  }
+
+  .icon-star {
+    width: 0.8rem;
+  }
+
+  .rating-title {
+    font-size: 0.78rem;
+  }
+
+  /****** Testimonials ******/
+  .testimonials {
+    width: 18.5rem;
+    flex-direction: column;
+  }
+
+  .testimonial-box {
+    padding: 2rem 1.5rem;
+  }
+
+  /* Profile */
+  .testimonial-profile {
+    flex-direction: row;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .profile-info {
+    font-size: 0.85rem;
+  }
+
+  /* Review */
+  .testimonial-review {
+    font-size: 0.8rem;
+  }
+
+  /****** Background ******/
+  .background-bottom {
+    bottom: -75rem;
+    right: -12rem;
+  }
+}
+
+/* --------------------------- */
+/********* Below 384px *********/
+@media (max-width: 24em) {
+  .social-proof-container {
+    align-items: center;
+    width: 22rem;
+    margin: 6rem 0;
+  }
+
+  /****** Top ******/
+  /* Intro */
+  .intro {
+    width: 22rem;
+    margin-bottom: 2.3rem;
+  }
+
+  .intro-heading {
+    font-size: 2.5rem;
+    line-height: 0.81;
+    padding: 0 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .intro-description {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0 0.76rem;
+  }
+
+  /* Rating */
+  .rating {
+    gap: 1rem;
+  }
+
+  .rating-box {
+    flex-direction: column;
+    width: 20.5rem;
+    padding: 1rem 2rem;
+  }
+
+  .rating-stars {
+    gap: 0.5rem;
+  }
+
+  .icon-star {
+    width: 1.1rem;
+  }
+
+  .rating-title {
+    font-size: 1.1rem;
+  }
+
+  /****** Testimonials ******/
+  .testimonials {
+    width: 20.5rem;
+  }
+
+  .testimonial-box {
+    padding: 2.9rem 1.7rem 2rem 2rem;
+    border-radius: 0.5rem;
+  }
+
+  /* Profile */
+  .testimonial-profile {
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .profile-info {
+    font-size: 1.1rem;
+  }
+
+  .headshot-img {
+    width: 2.6rem;
+  }
+
+  /* Review */
+  .testimonial-review {
+    font-size: 0.97rem;
+    letter-spacing: 0.7px;
+  }
+
+  /****** Background ******/
+  .background-top,
+  .background-bottom {
+    display: none;
+  }
+
+  .mobile-background-top,
+  .mobile-background-bottom {
+    display: block;
+    position: absolute;
+    width: 108%;
+  }
+
+  .mobile-background-top {
+    top: 0rem;
+    left: -1rem;
+  }
+
+  .mobile-background-bottom {
+    top: 67rem;
+    right: -0.9rem;
+  }
+}
