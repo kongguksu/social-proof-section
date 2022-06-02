@@ -10,6 +10,11 @@
   .top {
     margin-bottom: 3.5rem;
   }
+
+  /****** Background ******/
+  body {
+    background-position: top left -7rem, bottom right -5rem;
+  }
 }
 
 /* --------------------------- */
@@ -78,9 +83,8 @@
   }
 
   /****** Background ******/
-  .background-bottom {
-    bottom: -43rem;
-    right: -14rem;
+  body {
+    background-position: top left -8rem, bottom -2rem right -5rem;
   }
 }
 
@@ -180,14 +184,8 @@
   }
 
   /****** Background ******/
-  .background-top {
-    top: -11rem;
-    left: -8.7rem;
-  }
-
-  .background-bottom {
-    bottom: -43rem;
-    right: -12rem;
+  body {
+    background-position: top left, bottom -3rem right -7rem;
   }
 }
 
@@ -279,14 +277,8 @@
   }
 
   /****** Background ******/
-  .background-top {
-    top: -7rem;
-    left: -8.7rem;
-  }
-
-  .background-bottom {
-    bottom: -55rem;
-    right: -12rem;
+  body {
+    background-position: top left -2rem, bottom -6rem right -10rem;
   }
 }
 
@@ -334,14 +326,8 @@
   }
 
   /****** Background ******/
-  .background-top {
-    top: -5rem;
-    left: -8.7rem;
-  }
-
-  .background-bottom {
-    bottom: -60rem;
-    right: -12rem;
+  body {
+    background-position: top left -4rem, bottom -6rem right -14rem;
   }
 }
 
@@ -415,9 +401,8 @@
   }
 
   /****** Background ******/
-  .background-bottom {
-    bottom: -75rem;
-    right: -12rem;
+  body {
+    background-position: top left -9rem, bottom -20rem right -14rem;
   }
 }
 
@@ -504,25 +489,10 @@
   }
 
   /****** Background ******/
-  .background-top,
-  .background-bottom {
-    display: none;
-  }
-
-  .mobile-background-top,
-  .mobile-background-bottom {
-    display: block;
-    position: absolute;
-    width: 108%;
-  }
-
-  .mobile-background-top {
-    top: 0rem;
-    left: -1rem;
-  }
-
-  .mobile-background-bottom {
-    top: 67rem;
-    right: -0.9rem;
+  body {
+    background-image: url("../images/bg-pattern-top-mobile.svg"),
+      url("../images/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right;
   }
 }
